@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>测试部署时间</h1>
+      <h1>测试自动部署{{date}}</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      
+      date: new Date()
     }
   }
 }
